@@ -5,7 +5,7 @@
 </a>
 
 <img src="https://raw.githubusercontent.com/nemosofts/swipe-btn/master/screenshot/btn.gif">
-<img src="https://raw.githubusercontent.com/nemosofts/swipe-btn/master/screenshot/btn2.png">
+<img src="https://raw.githubusercontent.com/nemosofts/swipe-btn/master/screenshot/btn3.png">
 
 Library of an android button activated by swipe. 
 
