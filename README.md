@@ -4,8 +4,7 @@
     <img src="https://komarev.com/ghpvc/?username=nemosofts&style=flat&color=red">
 </a>
 
- <img src="https://raw.githubusercontent.com/nemosofts/swipe-btn/master/screenshot/btn.gif">
-
+<img src="https://raw.githubusercontent.com/nemosofts/swipe-btn/master/screenshot/btn.gif">
 
 Library of an android button activated by swipe. 
 
