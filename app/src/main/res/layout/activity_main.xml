@@ -8,7 +8,8 @@
     android:orientation="vertical"
     tools:context=".MainActivity"
     android:padding="10dp"
-    android:gravity="center">
+    android:gravity="center"
+    android:background="@color/white">
 
     <com.nemosofts.swipebutton.SwipeButton
         android:id="@+id/swipe_btn"
