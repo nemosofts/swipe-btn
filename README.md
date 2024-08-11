@@ -52,6 +52,11 @@ Add the button in your layout file and customize it the way you like it.
     app:initial_state="disabled"
     app:has_activate_state="true" />
 ```
+### Setting the sliding button size
+You can set the size of the moving part of the button by changing the app:button_image_width and app:button_image_height properties.
+
+### Setting the text part size
+You can set the size of the fixed part of the button by setting the text size of the setting the padding in this part.
 
 ## Listening for changes
 You can set a listener for state changes
