@@ -34,7 +34,7 @@ implementation 'com.github.nemosofts:swipe-btn:1.X.X'
     android:layout_marginStart="20dp"
     android:layout_marginEnd="20dp"
     app:inner_text="Slide to Unlock"
-    app:inner_text_color="?ns_white"
+    app:inner_text_color="#FFFFFF"
     app:inner_text_size="16sp"
     app:inner_text_top_padding="18dp"
     app:inner_text_bottom_padding="18dp"
