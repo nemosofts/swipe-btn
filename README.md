@@ -4,8 +4,7 @@
     <img src="https://komarev.com/ghpvc/?username=nemosofts&style=flat&color=red">
 </a>
 
-<img src="https://raw.githubusercontent.com/nemosofts/swipe-btn/master/screenshot/btn.gif">
-<img src="https://raw.githubusercontent.com/nemosofts/swipe-btn/master/screenshot/btn2.png">
+<img src="https://raw.githubusercontent.com/nemosofts/swipe-btn/master/screenshot/btn3.png">
 
 Library of an android button activated by swipe. 
 
@@ -26,7 +25,8 @@ Or in Gradle Groovy DSL `build.gradle`:
 ```groovy
 implementation 'com.github.nemosofts:swipe-btn:1.X.X'
 ```
-
+## How to use
+Add the button in your layout file and customize it the way you like it.
 ```xml
 <com.nemosofts.swipebutton.SwipeButton
     android:id="@+id/swipe_btn"
@@ -51,6 +51,32 @@ implementation 'com.github.nemosofts:swipe-btn:1.X.X'
     app:button_background="@drawable/shape_button_new"
     app:initial_state="disabled"
     app:has_activate_state="true" />
+```
+### Setting the sliding button size
+You can set the size of the moving part of the button by changing the app:button_image_width and app:button_image_height properties.
+
+### Setting the text part size
+You can set the size of the fixed part of the button by setting the text size of the setting the padding in this part.
+
+## Listening for changes
+You can set a listener for state changes
+```java
+SwipeButton enableButton = (SwipeButton) findViewById(R.id.swipe_btn);
+enableButton.setOnStateChangeListener(new OnStateChangeListener() {
+      @Override 
+      public void onStateChange(boolean active) {
+           Toast.makeText(MainActivity.this, "State: " + active, Toast.LENGTH_SHORT).show();
+      } 
+});
+```
+Or listen for the activation of the button
+```java
+swipeButtonNoState.setOnActiveListener(new OnActiveListener() {
+    @Override
+    public void onActive() {
+        Toast.makeText(MainActivity.this, "Active!", Toast.LENGTH_SHORT).show();
+    }
+});
 ```
 
 where `1.X.X` is your preferred version. All modules must be the same version.
