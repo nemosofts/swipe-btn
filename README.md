@@ -52,4 +52,25 @@ implementation 'com.github.nemosofts:swipe-btn:1.X.X'
     app:has_activate_state="true" />
 ```
 
+Listening for changes
+You can set a listener for state changes
+```java
+SwipeButton enableButton = (SwipeButton) findViewById(R.id.swipe_btn);
+enableButton.setOnStateChangeListener(new OnStateChangeListener() {
+      @Override 
+      public void onStateChange(boolean active) {
+           Toast.makeText(MainActivity.this, "State: " + active, Toast.LENGTH_SHORT).show();
+      } 
+});
+```
+Or listen for the activation of the button
+```java
+swipeButtonNoState.setOnActiveListener(new OnActiveListener() {
+    @Override
+    public void onActive() {
+        Toast.makeText(MainActivity.this, "Active!", Toast.LENGTH_SHORT).show();
+    }
+});
+```
+
 where `1.X.X` is your preferred version. All modules must be the same version.
