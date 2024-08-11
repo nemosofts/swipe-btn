@@ -25,7 +25,7 @@ Or in Gradle Groovy DSL `build.gradle`:
 ```groovy
 implementation 'com.github.nemosofts:swipe-btn:1.X.X'
 ```
-
+## How to use
 Add the button in your layout file and customize it the way you like it.
 ```xml
 <com.nemosofts.swipebutton.SwipeButton
@@ -53,7 +53,7 @@ Add the button in your layout file and customize it the way you like it.
     app:has_activate_state="true" />
 ```
 
-Listening for changes
+### Listening for changes
 You can set a listener for state changes
 ```java
 SwipeButton enableButton = (SwipeButton) findViewById(R.id.swipe_btn);
