@@ -39,7 +39,7 @@ Add the button in your layout file and customize it the way you like it.
     app:inner_text_size="16sp"
     app:inner_text_top_padding="18dp"
     app:inner_text_bottom_padding="18dp"
-    app:inner_text_background="@drawable/shape_rounded_new"
+    app:inner_text_background="@drawable/shape_rounded"
     app:button_image_height="60dp"
     app:button_image_width="100dp"
     app:button_image_disabled="@drawable/ic_lock_open"
@@ -48,7 +48,7 @@ Add the button in your layout file and customize it the way you like it.
     app:button_right_padding="20dp"
     app:button_top_padding="20dp"
     app:button_bottom_padding="20dp"
-    app:button_background="@drawable/shape_button_new"
+    app:button_background="@drawable/shape_button"
     app:initial_state="disabled"
     app:has_activate_state="true" />
 ```
