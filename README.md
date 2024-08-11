@@ -4,7 +4,7 @@
     <img src="https://komarev.com/ghpvc/?username=nemosofts&style=flat&color=red">
 </a>
 
-<img src="https://raw.githubusercontent.com/nemosofts/swipe-btn/master/screenshot/btn3.png">
+<img src="https://raw.githubusercontent.com/nemosofts/swipe-btn/master/screenshot/btn4.png">
 
 Library of an android button activated by swipe. 
 
@@ -39,7 +39,7 @@ Add the button in your layout file and customize it the way you like it.
     app:inner_text_size="16sp"
     app:inner_text_top_padding="18dp"
     app:inner_text_bottom_padding="18dp"
-    app:inner_text_background="@drawable/shape_rounded_new"
+    app:inner_text_background="@drawable/shape_rounded"
     app:button_image_height="60dp"
     app:button_image_width="100dp"
     app:button_image_disabled="@drawable/ic_lock_open"
@@ -48,7 +48,7 @@ Add the button in your layout file and customize it the way you like it.
     app:button_right_padding="20dp"
     app:button_top_padding="20dp"
     app:button_bottom_padding="20dp"
-    app:button_background="@drawable/shape_button_new"
+    app:button_background="@drawable/shape_button"
     app:initial_state="disabled"
     app:has_activate_state="true" />
 ```
@@ -61,12 +61,12 @@ You can set the size of the fixed part of the button by setting the text size of
 ## Listening for changes
 You can set a listener for state changes
 ```java
-SwipeButton enableButton = (SwipeButton) findViewById(R.id.swipe_btn);
-enableButton.setOnStateChangeListener(new OnStateChangeListener() {
-      @Override 
-      public void onStateChange(boolean active) {
-           Toast.makeText(MainActivity.this, "State: " + active, Toast.LENGTH_SHORT).show();
-      } 
+SwipeButton enableButton1 =  findViewById(R.id.swipe_btn);
+enableButton1.setOnStateChangeListener(new OnStateChangeListener() {
+    @Override
+    public void onStateChange(boolean active) {
+        Toast.makeText(MainActivity.this, "State: " + active, Toast.LENGTH_SHORT).show();
+    }
 });
 ```
 Or listen for the activation of the button
