@@ -1,5 +1,6 @@
 plugins {
     id 'com.android.application'
+    id 'maven-publish'
 }
 
 android {
@@ -44,4 +45,20 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.2.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
     implementation project(path: ':library')
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'com.github.nemosofts'
+            artifactId = 'swipe-btn'
+            version = "1.0.0"
+            pom {
+                description = 'nemosofts'
+            }
+        }
+    }
+    repositories {               // << --- ADD This
+        mavenLocal()
+    }
 }
