@@ -4,7 +4,7 @@
     <img src="https://komarev.com/ghpvc/?username=nemosofts&style=flat&color=red">
 </a>
 
-<img src="https://raw.githubusercontent.com/nemosofts/swipe-btn/master/screenshot/btn4.png">
+<img src="https://raw.githubusercontent.com/nemosofts/swipe-btn/master/screenshot/btn5.png">
 
 Library of an android button activated by swipe. 
 
@@ -78,5 +78,6 @@ swipeButtonNoState.setOnActiveListener(new OnActiveListener() {
     }
 });
 ```
+<img src="https://raw.githubusercontent.com/nemosofts/swipe-btn/master/screenshot/btn4.png">
 
 where `1.X.X` is your preferred version. All modules must be the same version.
