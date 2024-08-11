@@ -61,12 +61,12 @@ You can set the size of the fixed part of the button by setting the text size of
 ## Listening for changes
 You can set a listener for state changes
 ```java
-SwipeButton enableButton = (SwipeButton) findViewById(R.id.swipe_btn);
-enableButton.setOnStateChangeListener(new OnStateChangeListener() {
-      @Override 
-      public void onStateChange(boolean active) {
-           Toast.makeText(MainActivity.this, "State: " + active, Toast.LENGTH_SHORT).show();
-      } 
+SwipeButton enableButton1 =  findViewById(R.id.swipe_btn);
+enableButton1.setOnStateChangeListener(new OnStateChangeListener() {
+    @Override
+    public void onStateChange(boolean active) {
+        Toast.makeText(MainActivity.this, "State: " + active, Toast.LENGTH_SHORT).show();
+    }
 });
 ```
 Or listen for the activation of the button
