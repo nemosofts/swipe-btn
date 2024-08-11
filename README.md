@@ -26,6 +26,7 @@ Or in Gradle Groovy DSL `build.gradle`:
 implementation 'com.github.nemosofts:swipe-btn:1.X.X'
 ```
 
+Add the button in your layout file and customize it the way you like it.
 ```xml
 <com.nemosofts.swipebutton.SwipeButton
     android:id="@+id/swipe_btn"
