@@ -78,6 +78,23 @@ swipeButtonNoState.setOnActiveListener(new OnActiveListener() {
     }
 });
 ```
+
+## Configure XML
+
+ - button_image_width: Change the width of the moving part of the button
+ - button_image_height: Change the height of the moving part of the button
+ - inner_text: Text in the center of the button. It disapears when swiped
+ - inner_text_color: Color of the text
+ - inner_text_size: Size of the text
+ - inner_text_[direction]_padding: Sets the padding of the text inside the button. You can set how big this part of the button will by setting text size and padding.
+ - button_image_disabled: Icon of the button when disabled. This is the initial state. 
+ - button_image_enabled: Icon of the button when disabled. This is the initial expanded state. 
+ - button_[direction]_padding: Sets the padding of the button the slide with the touch. You can set how big the button will be by setting the image and the padding
+ - initial_state: Initial state. Default state is disabled.
+ - has_activate_state: Set if the button stops in the "active" state. If false, the button will only come back to the initial state after swiped until the end of its way. Use OnActiveListener if you set the parameter to false.
+ - button_trail_enabled: Set trailing effect enabled. 
+ - button_trail_drawable: Set the color of the trailing effect.
+
 <img src="https://raw.githubusercontent.com/nemosofts/swipe-btn/master/screenshot/btn4.png">
 
 where `1.X.X` is your preferred version. All modules must be the same version.
