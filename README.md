@@ -2,7 +2,8 @@
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/nemosofts/swipe-btn)
 <a href="https://github.com/nemosofts/swipe-btn">
     <img src="https://komarev.com/ghpvc/?username=nemosofts&style=flat&color=red">
-</a>[![CodeFactor](https://www.codefactor.io/repository/github/nemosofts/swipe-btn/badge)](https://www.codefactor.io/repository/github/nemosofts/swipe-btn)
+</a>
+[![CodeFactor](https://www.codefactor.io/repository/github/nemosofts/swipe-btn/badge)](https://www.codefactor.io/repository/github/nemosofts/swipe-btn)
 
 <img src="https://raw.githubusercontent.com/nemosofts/swipe-btn/master/screenshot/btn7.png">
 
