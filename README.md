@@ -19,13 +19,13 @@ For example you can add dependencies on the modules like this:
 `build.gradle.kts`
 
 ```kotlin
-implementation("com.github.nemosofts:swipe-btn:1.X.X")
+implementation("com.github.nemosofts:swipe-btn:1.0.0")
 ```
 
 Or in Gradle Groovy DSL `build.gradle`:
 
 ```groovy
-implementation 'com.github.nemosofts:swipe-btn:1.X.X'
+implementation 'com.github.nemosofts:swipe-btn:1.0.0'
 ```
 ## How to use
 Add the button in your layout file and customize it the way you like it.
